@@ -1,0 +1,93 @@
+{
+  "plotting_latex_True": {
+    "completed": false,
+    "exception": "RuntimeError",
+    "message": "Failed to process string with tex because latex could not be found"
+  },
+  "plotting_latex_False": {
+    "completed": true,
+    "warnings": []
+  },
+  "recoverable_boundary_states": [
+    {
+      "x": [
+        -0.2,
+        0.5
+      ],
+      "exact_hI": 0.07500000000000001,
+      "tightening": 0.002,
+      "mu": 0.0,
+      "u": 1.0,
+      "within_bounds": true
+    },
+    {
+      "x": [
+        -0.15,
+        0.5
+      ],
+      "exact_hI": 0.024999999999999994,
+      "tightening": 0.002,
+      "mu": 0.6583203258666673,
+      "u": -0.31664065173333467,
+      "within_bounds": true
+    },
+    {
+      "x": [
+        -0.14,
+        0.5
+      ],
+      "exact_hI": 0.015000000000000013,
+      "tightening": 0.002,
+      "mu": 0.8184754042695659,
+      "u": -0.6369508085391318,
+      "within_bounds": true
+    },
+    {
+      "x": [
+        -0.13,
+        0.5
+      ],
+      "exact_hI": 0.0050000000000000044,
+      "tightening": 0.002,
+      "mu": 0.9863635106909094,
+      "u": -0.9727270213818189,
+      "within_bounds": true
+    },
+    {
+      "x": [
+        -0.128,
+        0.5
+      ],
+      "exact_hI": 0.0030000000000000027,
+      "tightening": 0.002,
+      "mu": 1.020454520509091,
+      "u": -1.0409090410181818,
+      "within_bounds": false
+    },
+    {
+      "x": [
+        -0.127,
+        0.5
+      ],
+      "exact_hI": 0.0020000000000000018,
+      "tightening": 0.002,
+      "mu": 1.0380951990857143,
+      "u": -1.0761903981714287,
+      "within_bounds": false
+    }
+  ],
+  "sampling_variation": [
+    {
+      "dt": 0.01,
+      "finite": true,
+      "min_continuous_safety_margin": 0.0009500000000000003,
+      "max_abs_u": 1.0
+    },
+    {
+      "dt": 0.04,
+      "finite": true,
+      "min_continuous_safety_margin": 0.0031999999999999997,
+      "max_abs_u": 1.0
+    }
+  ]
+}

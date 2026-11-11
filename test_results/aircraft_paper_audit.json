@@ -1,0 +1,71 @@
+{
+  "dynamics_against_paper_max_error": 0.0,
+  "directional_vs_STM_max_absolute_errors": [
+    0.005969475018645198,
+    9.29302445911162e-05,
+    0.003511070603508415
+  ],
+  "tightening_bound_at_default_state": {
+    "configured_sup_fcl": 150.0,
+    "actual_backup_dynamics_norm": 200.00623703368362,
+    "actual_abs_safety_derivative": 200.0,
+    "is_upper_bound_at_this_state": false
+  },
+  "altitude_barrier_scaling": {
+    "source": 0.859375,
+    "printed": 137500.0,
+    "same_individual_zero_set": true,
+    "same_softmin": false
+  },
+  "nominal_heading_absolute_value": {
+    "heading_error": -0.5,
+    "source_phi_desired": 0.7853848869968171,
+    "signed_phi_desired": -0.7853848869968171
+  },
+  "printed_backup_set_not_subset_of_safe_set": {
+    "x": [
+      -0.7853981633974483,
+      0.0,
+      0.0,
+      26000.0,
+      0.0,
+      10000.0,
+      0.0,
+      1.414213562373095
+    ],
+    "rho": -4077.4719673802247,
+    "h": -1000.0,
+    "h6": 3072.4719673802247,
+    "exact_equalities_of_eq33": true
+  },
+  "safe_backup_set_state_leaves_geofence": {
+    "x": [
+      -0.7853981633974483,
+      0.0,
+      0.0,
+      24990.0,
+      0.0,
+      10000.0,
+      0.0,
+      1.414213562373095
+    ],
+    "initial_h": 10.0,
+    "initial_h6": 4082.4719673802247,
+    "initial_softmin_hb": 0.009914306840971599,
+    "minimum_h_over_backup": -4067.4742672897664
+  },
+  "soft_saturation_equilibrium_residual": {
+    "command_minus_turn_equilibrium": [
+      -2.220446049250313e-16,
+      -1.4142120190463459e-06
+    ]
+  },
+  "source_sha256": {
+    "aircraft\\comparison.py": "f966d66d31a063a8d45c1f8d999cbb377eca2bfbe32dad4a36b5142b78c32156",
+    "aircraft\\control.py": "66342098eb9988789c9fc04b2b4c1ce52599139ffdc6f740c1651fbc50e2d3f6",
+    "aircraft\\dynamics.py": "cfe24190c6b6e978a232edac8a7bad841812da32836a189509360f565aaa0527",
+    "aircraft\\main_sim.py": "1450c3f83b6016cf990994f779cbfdd0030aaded1055caa8d3decf5a9da539d1",
+    "aircraft\\plotting_paper_comparison.py": "971d92646912aff93efc53674193de38ceeebef2b68b7d1f14b9c68d989e9cea",
+    "aircraft\\safety.py": "a763b1d69f7012f7699c9ddcc61dc8c0ee324324831c96b4ef09a436bc5c7a25"
+  }
+}

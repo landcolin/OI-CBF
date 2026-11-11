@@ -1,0 +1,7 @@
+{
+  "cases": 80,
+  "feasibilityMismatches": 0,
+  "maxControlError": 1.0547118733938987E-15,
+  "maxConstraintViolation": 4.4408920985006262E-16,
+  "passed": true
+}

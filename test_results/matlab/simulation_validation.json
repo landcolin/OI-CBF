@@ -1,0 +1,193 @@
+{
+  "matlabVersion": "26.2.0.3386108 (R2026b)",
+  "runs": [
+    {
+      "model": "double_integrator",
+      "mode": "bCBF",
+      "elapsedSeconds": 0.0926828,
+      "steps": 351,
+      "duration": 7.0200000000000005,
+      "finite": true,
+      "minSafetyMargin": 0.0018000000000000002,
+      "maxInputViolation": 0,
+      "allQPsFeasible": true,
+      "maxStateErrorByComponent": [
+        6.6613381477509392E-16,
+        6.6613381477509392E-16
+      ],
+      "maxControlError": 5.5511151231257827E-15,
+      "muError": null,
+      "avgSolverTime": 1.262706552706553E-5,
+      "maxSolverTime": 0.0011998,
+      "trajectoryThresholds": [
+        1E-8,
+        1E-8
+      ],
+      "trajectoryAgreement": true,
+      "defaultSafetyChecksPassed": true
+    },
+    {
+      "model": "double_integrator",
+      "mode": "blending",
+      "elapsedSeconds": 0.0291136,
+      "steps": 351,
+      "duration": 7.0200000000000005,
+      "finite": true,
+      "minSafetyMargin": 8.5678902193503446E-7,
+      "maxInputViolation": 0,
+      "allQPsFeasible": true,
+      "maxStateErrorByComponent": [
+        1.7763568394002505E-15,
+        2.1094237467877974E-15
+      ],
+      "maxControlError": 2.042810365310288E-14,
+      "muError": 1.021405182655144E-14,
+      "avgSolverTime": 0,
+      "maxSolverTime": 0,
+      "trajectoryThresholds": [
+        1E-8,
+        1E-8
+      ],
+      "trajectoryAgreement": true,
+      "defaultSafetyChecksPassed": true
+    },
+    {
+      "model": "double_integrator",
+      "mode": "OI",
+      "elapsedSeconds": 0.0482314,
+      "steps": 351,
+      "duration": 7.0200000000000005,
+      "finite": true,
+      "minSafetyMargin": 0.0018000000000000002,
+      "maxInputViolation": 0,
+      "allQPsFeasible": true,
+      "maxStateErrorByComponent": [
+        6.6613381477509392E-16,
+        6.6613381477509392E-16
+      ],
+      "maxControlError": 7.1054273576010019E-15,
+      "muError": 3.5527136788005009E-15,
+      "avgSolverTime": 8.08860398860399E-6,
+      "maxSolverTime": 0.0002434,
+      "trajectoryThresholds": [
+        1E-8,
+        1E-8
+      ],
+      "trajectoryAgreement": true,
+      "defaultSafetyChecksPassed": true
+    },
+    {
+      "model": "aircraft",
+      "mode": "bCBF",
+      "elapsedSeconds": 10.221098,
+      "steps": 734,
+      "duration": 110.1,
+      "finite": true,
+      "minSafetyMargin": 50.338061493061105,
+      "maxInputViolation": 0,
+      "allQPsFeasible": true,
+      "maxStateErrorByComponent": [
+        4.8182529360785153E-7,
+        1.6225818610937637E-7,
+        1.5185726701116842E-7,
+        0.0001354031846858561,
+        0.0002960819167583395,
+        0.00024665794808242936,
+        6.3960593615908223E-7,
+        1.2185298612354956E-6
+      ],
+      "maxControlError": 4.9419365178854369E-6,
+      "muError": null,
+      "avgSolverTime": 0.0010205716621253409,
+      "maxSolverTime": 0.007283,
+      "trajectoryThresholds": [
+        0.002,
+        0.002,
+        0.002,
+        2,
+        2,
+        2,
+        0.002,
+        0.002
+      ],
+      "trajectoryAgreement": true,
+      "defaultSafetyChecksPassed": true
+    },
+    {
+      "model": "aircraft",
+      "mode": "blending",
+      "elapsedSeconds": 4.1118018,
+      "steps": 734,
+      "duration": 110.1,
+      "finite": true,
+      "minSafetyMargin": 12.552514996234095,
+      "maxInputViolation": 2.2204460492503131E-16,
+      "allQPsFeasible": true,
+      "maxStateErrorByComponent": [
+        4.1745261414316559E-9,
+        2.6383891599257581E-9,
+        9.4266838779333284E-10,
+        5.6527678680140525E-6,
+        5.4434156027127756E-7,
+        1.9086981410509907E-5,
+        7.1606985358602104E-9,
+        6.7681387161400153E-9
+      ],
+      "maxControlError": 1.0072048528542155E-8,
+      "muError": 3.6145654343428847E-10,
+      "avgSolverTime": 0,
+      "maxSolverTime": 0,
+      "trajectoryThresholds": [
+        0.002,
+        0.002,
+        0.002,
+        2,
+        2,
+        2,
+        0.002,
+        0.002
+      ],
+      "trajectoryAgreement": true,
+      "defaultSafetyChecksPassed": true
+    },
+    {
+      "model": "aircraft",
+      "mode": "OI",
+      "elapsedSeconds": 7.1953978,
+      "steps": 734,
+      "duration": 110.1,
+      "finite": true,
+      "minSafetyMargin": 47.970165177815943,
+      "maxInputViolation": 0,
+      "allQPsFeasible": true,
+      "maxStateErrorByComponent": [
+        7.3245539788935332E-7,
+        4.4842431538849592E-8,
+        7.8593641872348741E-8,
+        5.275753210298717E-5,
+        0.000206719632842578,
+        0.000183162826942862,
+        6.99876963730639E-7,
+        1.8387584810319879E-7
+      ],
+      "maxControlError": 4.761585710943983E-6,
+      "muError": 2.1488879283770856E-6,
+      "avgSolverTime": 1.8495640326975479E-5,
+      "maxSolverTime": 0.0004696,
+      "trajectoryThresholds": [
+        0.002,
+        0.002,
+        0.002,
+        2,
+        2,
+        2,
+        0.002,
+        0.002
+      ],
+      "trajectoryAgreement": true,
+      "defaultSafetyChecksPassed": true
+    }
+  ],
+  "allDefaultSafetyChecksPassed": true,
+  "allTrajectoryComparisonsPassed": true
+}

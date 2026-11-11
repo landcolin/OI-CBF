@@ -1,0 +1,34 @@
+{
+  "dynamics_against_paper_max_error": 0.0,
+  "directional_vs_STM_max_absolute_errors": [
+    2.220446049250313e-16,
+    4.440892098500626e-16,
+    3.3306690738754696e-16
+  ],
+  "tightening_bound_at_default_state": {
+    "configured_sup_fcl": 0.2,
+    "actual_backup_dynamics_norm": 1.118033988749895,
+    "actual_abs_safety_derivative": 0.5,
+    "is_upper_bound_at_this_state": false
+  },
+  "recoverable_but_QP_infeasible": {
+    "x": [
+      -0.128,
+      0.5
+    ],
+    "continuous_backup_hI": 0.003,
+    "tightening": 0.002,
+    "mu": 1.020454520509091,
+    "u": -1.0409090410181818,
+    "minimum_constraint_residual": -0.020454520509090912,
+    "backup_mu1_minimum_constraint_residual": -0.01799997804799991
+  },
+  "source_sha256": {
+    "double_integrator\\comparison.py": "4be0cfcdb67ac0d1697a8391d6757474a05b79a7b96159e6d55341f37b2a3378",
+    "double_integrator\\control.py": "6e9c82bcc13bdabbc2b4108558f894b8fd420acd15f7844a327833a91b9c2a91",
+    "double_integrator\\dynamics.py": "8de38bd2b7cb1022e81715dd4a32478d3191432a681e4b2cee716c8f87fb336b",
+    "double_integrator\\main_sim.py": "c8b9602e0dede0a722eb738ad8601bce0e2bb54bf4763a4665b089aec54d6b5d",
+    "double_integrator\\plotting_paper_comparison.py": "a2fd2fd2d8035cd2486da30056bfb1900dc2d8fcc3b65ca31e64baf927999eef",
+    "double_integrator\\safety.py": "a8f765d9ea1dad378d6547eccddfc5bc8f841c7bf9d85b475b893dc54bcf5c3b"
+  }
+}

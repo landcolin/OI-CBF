@@ -1,0 +1,361 @@
+{
+  "checks": [
+    {
+      "name": "double_integrator/dynamics-python",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "double_integrator/dynamics-paper-16-or-30",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "double_integrator/primary-python",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "double_integrator/backup-python",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "double_integrator/jacobian-python",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "double_integrator/barriers-python-components",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/stable-softmin-formula",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/barrier-gradients-reference",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/jacobian-finite-differences",
+      "passed": true,
+      "error": 5.2189363941579359E-12,
+      "tolerance": 2E-6
+    },
+    {
+      "name": "double_integrator/barrier-gradients-finite-differences",
+      "passed": true,
+      "error": 1.19660947817124E-11,
+      "tolerance": 5E-5
+    },
+    {
+      "name": "double_integrator/OI-KKT-1",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-8
+    },
+    {
+      "name": "double_integrator/OI-KKT-2",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-8
+    },
+    {
+      "name": "double_integrator/OI-KKT-3",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-8
+    },
+    {
+      "name": "double_integrator/backup-state-python-default-tolerances",
+      "passed": true,
+      "error": 7.2164496600635175E-16,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/STM-python-default-tolerances",
+      "passed": true,
+      "error": 2.2204460492503131E-16,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/directional-python-default-tolerances",
+      "passed": true,
+      "error": 3.3306690738754696E-16,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/eq29-vs-eq12-tight-integration",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0.0001
+    },
+    {
+      "name": "double_integrator/OI-coefficients-python-default-tolerances",
+      "passed": true,
+      "error": 1.4210854715202004E-14,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "double_integrator/OI-control-python-default-tolerances",
+      "passed": true,
+      "error": 2.2204460492503131E-16,
+      "tolerance": 0.0002
+    },
+    {
+      "name": "double_integrator/polytope-projection-vs-python-quadprog",
+      "passed": true,
+      "error": 1.2029223103726672E-16,
+      "tolerance": 1E-7
+    },
+    {
+      "name": "aircraft/dynamics-python",
+      "passed": true,
+      "error": 5.6378512969246231E-18,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "aircraft/dynamics-paper-16-or-30",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "aircraft/primary-python",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "aircraft/backup-python",
+      "passed": true,
+      "error": 2.2204460492503131E-16,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "aircraft/jacobian-python",
+      "passed": true,
+      "error": 3.5527136788005009E-15,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "aircraft/barriers-python-components",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "aircraft/stable-softmin-formula",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "aircraft/barrier-gradients-reference",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-9
+    },
+    {
+      "name": "aircraft/jacobian-finite-differences",
+      "passed": true,
+      "error": 3.7005634112574626E-9,
+      "tolerance": 2E-6
+    },
+    {
+      "name": "aircraft/barrier-gradients-finite-differences",
+      "passed": true,
+      "error": 1.8276341506862082E-7,
+      "tolerance": 5E-5
+    },
+    {
+      "name": "aircraft/OI-KKT-1",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-8
+    },
+    {
+      "name": "aircraft/OI-KKT-2",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-8
+    },
+    {
+      "name": "aircraft/OI-KKT-3",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-8
+    },
+    {
+      "name": "aircraft/backup-state-python-default-tolerances",
+      "passed": true,
+      "error": 0.00010959136125165969,
+      "tolerance": 0.1
+    },
+    {
+      "name": "aircraft/STM-python-default-tolerances",
+      "passed": true,
+      "error": 0.0081292546717577352,
+      "tolerance": 0.1
+    },
+    {
+      "name": "aircraft/directional-python-default-tolerances",
+      "passed": true,
+      "error": 0.002042882074647423,
+      "tolerance": 0.1
+    },
+    {
+      "name": "aircraft/eq29-vs-eq12-tight-integration",
+      "passed": true,
+      "error": 2.7109528843993758E-8,
+      "tolerance": 0.0001
+    },
+    {
+      "name": "aircraft/OI-coefficients-python-default-tolerances",
+      "passed": true,
+      "error": 0.002042882074647423,
+      "tolerance": 0.1
+    },
+    {
+      "name": "aircraft/OI-control-python-default-tolerances",
+      "passed": true,
+      "error": 1.5913100570585925E-7,
+      "tolerance": 0.0002
+    },
+    {
+      "name": "aircraft/polytope-projection-vs-python-quadprog",
+      "passed": true,
+      "error": 2.2204460492503131E-16,
+      "tolerance": 1E-7
+    },
+    {
+      "name": "projection/box-corner",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "projection/oblique-edge",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "projection/infeasible-interval-rejected",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "projection/infeasible-zero-row-rejected",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "OI/infeasibility-guard",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "OI/explicit-legacy-reproduces-original-bug",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-10
+    },
+    {
+      "name": "paper/altitude-h3-unnormalized",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "source/altitude-h3-normalized",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "paper/terminal-gain-alphaB",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "source/terminal-gain-alpha",
+      "passed": true,
+      "error": 0,
+      "tolerance": 1E-12
+    },
+    {
+      "name": "paper/signed-heading-no-abs",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "audit/printed-radius-counterexample-reproduced",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "amendment/signed-radius-excludes-counterexample",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "stability/finite-1",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "stability/finite-3",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "stability/finite-6",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "name": "stability/finite-7",
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    }
+  ],
+  "matlabVersion": "26.2.0.3386108 (R2026b)",
+  "originalBoundaryCounterexample": {
+    "mu": 1.0204545205090909,
+    "u": -1.0409090410181818,
+    "feasible": false
+  },
+  "printedRadiusCounterexample": {
+    "rho": -4077.4719673802247,
+    "h": -1000,
+    "h6": 3072.4719673802247,
+    "satisfiesEq33Equalities": true,
+    "invalidSubsetClaim": true
+  },
+  "allImplementationChecksPassed": true,
+  "paperSafetyClaimsValidated": false
+}

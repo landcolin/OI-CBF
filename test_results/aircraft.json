@@ -1,0 +1,125 @@
+{
+  "model": "aircraft",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "simulations": [
+    {
+      "mode": "bCBF",
+      "completed": true,
+      "seconds": 42.30580720002763,
+      "steps": 734,
+      "simulated_seconds": 110.1,
+      "finite": true,
+      "min_safety_margin": 50.33806048782935,
+      "safety_violations_below_minus_1e_8": 0,
+      "max_input_bound_violation": 0.0,
+      "input_min": [
+        -0.44694343928774904,
+        0.6805544183996666
+      ],
+      "input_max": [
+        0.14163130268967625,
+        2.5639308424625966
+      ],
+      "mu_range": null,
+      "interventions": 669,
+      "returned_avg_time": [],
+      "returned_max_time": [],
+      "warnings": [],
+      "calls": 734,
+      "QP_fallbacks": 0
+    },
+    {
+      "mode": "blending",
+      "completed": true,
+      "seconds": 16.90182129997993,
+      "steps": 734,
+      "simulated_seconds": 110.1,
+      "finite": true,
+      "min_safety_margin": 12.552514087063173,
+      "safety_violations_below_minus_1e_8": 0,
+      "max_input_bound_violation": 0.0,
+      "input_min": [
+        -1.5707963267948966,
+        0.999998885961471
+      ],
+      "input_max": [
+        1.5707315805741,
+        1.447939064439578
+      ],
+      "mu_range": [
+        4.9464736785066476e-05,
+        1.0
+      ],
+      "interventions": 459,
+      "returned_avg_time": [],
+      "returned_max_time": [],
+      "warnings": [],
+      "calls": 734,
+      "QP_fallbacks": 0
+    },
+    {
+      "mode": "OI",
+      "completed": true,
+      "seconds": 39.939244599983795,
+      "steps": 734,
+      "simulated_seconds": 110.1,
+      "finite": true,
+      "min_safety_margin": 47.97016466659625,
+      "safety_violations_below_minus_1e_8": 0,
+      "max_input_bound_violation": 0.0,
+      "input_min": [
+        -0.09895223298705563,
+        0.9203070967659814
+      ],
+      "input_max": [
+        0.26772169295652976,
+        1.318129295356327
+      ],
+      "mu_range": [
+        0.0,
+        0.9877651968685598
+      ],
+      "interventions": 669,
+      "returned_avg_time": [],
+      "returned_max_time": [],
+      "warnings": [],
+      "calls": 734,
+      "QP_fallbacks": 0
+    }
+  ],
+  "checks": {
+    "syntax": {
+      "files": 6,
+      "passed": true
+    },
+    "no_controller_selected": {
+      "exception": "UnboundLocalError",
+      "message": "cannot access local variable 'sdt' where it is not associated with a value"
+    },
+    "finite_difference": {
+      "states": 25,
+      "max_jacobian_absolute_error": 7.586038464069134e-09,
+      "max_barrier_gradient_absolute_error": 2.257966116303578e-07
+    },
+    "softmin_at_default_initial_state": {
+      "source_value": "-0.5483113556160755",
+      "stable_value": -0.5483113556160755,
+      "gradient_finite": true,
+      "warnings": []
+    },
+    "backup_saturation_extreme_P_30": {
+      "finite": true,
+      "u": [
+        "-1.5707963267948966",
+        "1.1656842592650847"
+      ],
+      "warnings": []
+    },
+    "OI_closed_form_vs_reference_QP": {
+      "states": 12,
+      "infeasible_QPs": 0,
+      "max_mu_difference": 5.551115123125783e-17,
+      "min_constraint_residual": -1.4210854715202004e-14
+    }
+  }
+}

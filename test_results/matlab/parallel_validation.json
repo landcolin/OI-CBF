@@ -1,0 +1,15 @@
+{
+  "cases": 18,
+  "outcomeMismatches": 0,
+  "maxNumericalDifference": 0,
+  "serialSeconds": 3.1046543,
+  "parallelSeconds": 2.3634819,
+  "poolStartupSeconds": 14.3484157,
+  "workers": 2,
+  "completed": 14,
+  "infeasible": 4,
+  "otherErrors": 0,
+  "safetyViolations": 1,
+  "inputViolations": 0,
+  "passed": true
+}

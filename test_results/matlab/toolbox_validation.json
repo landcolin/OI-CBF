@@ -1,0 +1,31 @@
+{
+  "quadprogPath": "C:\\Program Files\\MATLAB\\R2026b\\toolbox\\optim\\optim\\quadprog.m",
+  "cases": 80,
+  "feasibilityMismatches": 0,
+  "maxControlErrorVsPython": 8.0491169285323849E-16,
+  "maxControlErrorVsProjection": 4.9960036108132044E-16,
+  "runs": [
+    {
+      "model": "double_integrator",
+      "minSafetyMargin": 0.0018000000000000002,
+      "allQPsFeasible": true,
+      "maxStateErrorVsProjection": 1.1102230246251565E-16,
+      "maxStateErrorVsPython": 6.6613381477509392E-16,
+      "maxControlErrorVsProjection": 3.5527136788005009E-15,
+      "maxInputViolation": 0,
+      "passed": true
+    },
+    {
+      "model": "aircraft",
+      "minSafetyMargin": 50.338061493061105,
+      "allQPsFeasible": true,
+      "maxStateErrorVsProjection": 1.6370904631912708E-11,
+      "maxStateErrorVsPython": 0.00029608191266561334,
+      "maxControlErrorVsProjection": 7.54427076365971E-12,
+      "maxInputViolation": 0,
+      "passed": true
+    }
+  ],
+  "maxOIClosedFormDifference": 1.1102230246251565E-16,
+  "passed": true
+}

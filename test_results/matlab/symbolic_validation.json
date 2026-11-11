@@ -1,0 +1,10 @@
+{
+  "matlabVersion": "26.2.0.3433840 (R2026b) Update 1",
+  "aircraftStates": 12,
+  "maxJacobianError": 2.8421709430404007E-14,
+  "maxComponentGradientError": 4.5474735088646412E-13,
+  "softminGradientIdentity": true,
+  "doubleIntegratorJacobianIdentity": true,
+  "passed": true,
+  "interpretation": "Derivative implementation checks, not a proof of the paper safety assumptions."
+}

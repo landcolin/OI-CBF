@@ -1,0 +1,441 @@
+{
+  "execution": "parallel",
+  "samplesPerModel": 3,
+  "stepsPerCase": 40,
+  "workers": 2,
+  "poolStartupSeconds": 14.3484157,
+  "computeSeconds": 2.3634819,
+  "results": [
+    {
+      "model": "double_integrator",
+      "mode": "bCBF",
+      "sample": 1,
+      "x0": [
+        -2,
+        0.5
+      ],
+      "status": "completed",
+      "minSafetyMargin": 1.3288962370645858,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -1.3288962370645858,
+        0.99884707849539311
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "double_integrator",
+      "mode": "blending",
+      "sample": 1,
+      "x0": [
+        -2,
+        0.5
+      ],
+      "status": "completed",
+      "minSafetyMargin": 1.3622516119887544,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -1.3622516119887544,
+        0.92908607129891829
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "double_integrator",
+      "mode": "OI",
+      "sample": 1,
+      "x0": [
+        -2,
+        0.5
+      ],
+      "status": "completed",
+      "minSafetyMargin": 1.3288962370645858,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -1.3288962370645858,
+        0.99884707849539311
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "double_integrator",
+      "mode": "bCBF",
+      "sample": 2,
+      "x0": [
+        -0.128,
+        0.5
+      ],
+      "status": "constraint_infeasible",
+      "minSafetyMargin": null,
+      "maxInputViolation": null,
+      "finite": false,
+      "finalState": [],
+      "errorId": "oicbf:Infeasible",
+      "errorMessage": "bCBF constraints infeasible; do not claim a safe QP solution."
+    },
+    {
+      "model": "double_integrator",
+      "mode": "blending",
+      "sample": 2,
+      "x0": [
+        -0.128,
+        0.5
+      ],
+      "status": "completed",
+      "minSafetyMargin": 0.00020800598597911507,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -0.038050198501356242,
+        -0.22836768599295482
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "double_integrator",
+      "mode": "OI",
+      "sample": 2,
+      "x0": [
+        -0.128,
+        0.5
+      ],
+      "status": "constraint_infeasible",
+      "minSafetyMargin": null,
+      "maxInputViolation": null,
+      "finite": false,
+      "finalState": [],
+      "errorId": "oicbf:Infeasible",
+      "errorMessage": "OI constraints infeasible; do not claim a safe QP solution."
+    },
+    {
+      "model": "double_integrator",
+      "mode": "bCBF",
+      "sample": 3,
+      "x0": [
+        -1.2482048855109711,
+        0.33135620998104975
+      ],
+      "status": "completed",
+      "minSafetyMargin": 0.67511092490124291,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -0.67511092490124291,
+        0.99238555641750237
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "double_integrator",
+      "mode": "blending",
+      "sample": 3,
+      "x0": [
+        -1.2482048855109711,
+        0.33135620998104975
+      ],
+      "status": "completed",
+      "minSafetyMargin": 0.697012219826454,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -0.697012219826454,
+        0.92062104411969337
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "double_integrator",
+      "mode": "OI",
+      "sample": 3,
+      "x0": [
+        -1.2482048855109711,
+        0.33135620998104975
+      ],
+      "status": "completed",
+      "minSafetyMargin": 0.67511092490124291,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -0.67511092490124291,
+        0.99238555641750237
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "bCBF",
+      "sample": 1,
+      "x0": [
+        0,
+        0,
+        0,
+        16000,
+        0,
+        10000,
+        0,
+        1
+      ],
+      "status": "completed",
+      "minSafetyMargin": 7800,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        0,
+        0,
+        0,
+        17200,
+        0,
+        10000,
+        0,
+        1
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "blending",
+      "sample": 1,
+      "x0": [
+        0,
+        0,
+        0,
+        16000,
+        0,
+        10000,
+        0,
+        1
+      ],
+      "status": "completed",
+      "minSafetyMargin": 7800.0000000043146,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -3.8534232649180184E-7,
+        3.4037481565121927E-6,
+        -2.6107683706960373E-6,
+        17199.999999995685,
+        -0.0021779328924348934,
+        10000.001630857214,
+        -2.386997664969053E-7,
+        1.0000154186887971
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "OI",
+      "sample": 1,
+      "x0": [
+        0,
+        0,
+        0,
+        16000,
+        0,
+        10000,
+        0,
+        1
+      ],
+      "status": "completed",
+      "minSafetyMargin": 7800,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        0,
+        0,
+        0,
+        17200,
+        0,
+        10000,
+        0,
+        1
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "bCBF",
+      "sample": 2,
+      "x0": [
+        -0.78539816339744828,
+        0,
+        0,
+        24990,
+        0,
+        10000,
+        0,
+        1.4142135623730949
+      ],
+      "status": "constraint_infeasible",
+      "minSafetyMargin": null,
+      "maxInputViolation": null,
+      "finite": false,
+      "finalState": [],
+      "errorId": "oicbf:Infeasible",
+      "errorMessage": "bCBF constraints infeasible; do not claim a safe QP solution."
+    },
+    {
+      "model": "aircraft",
+      "mode": "blending",
+      "sample": 2,
+      "x0": [
+        -0.78539816339744828,
+        0,
+        0,
+        24990,
+        0,
+        10000,
+        0,
+        1.4142135623730949
+      ],
+      "status": "completed",
+      "minSafetyMargin": -1172.7524072631968,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        -0.78539815001075952,
+        -4.2241418230642996E-7,
+        -0.29429957461557876,
+        26172.752407263197,
+        -175.30897442580593,
+        9999.99979932595,
+        -1.7529599702127934E-8,
+        1.4142107587197177
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "OI",
+      "sample": 2,
+      "x0": [
+        -0.78539816339744828,
+        0,
+        0,
+        24990,
+        0,
+        10000,
+        0,
+        1.4142135623730949
+      ],
+      "status": "constraint_infeasible",
+      "minSafetyMargin": null,
+      "maxInputViolation": null,
+      "finite": false,
+      "finalState": [],
+      "errorId": "oicbf:Infeasible",
+      "errorMessage": "OI constraints infeasible; do not claim a safe QP solution."
+    },
+    {
+      "model": "aircraft",
+      "mode": "bCBF",
+      "sample": 3,
+      "x0": [
+        -0.017383459417783586,
+        0.00060545094864911109,
+        -0.041354097494969079,
+        15629.679625897395,
+        -330.7098021099373,
+        10039.082335336749,
+        0.023709260267747091,
+        1.0764784089644432
+      ],
+      "status": "completed",
+      "minSafetyMargin": 8170.8204708385092,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        0.045257639496323977,
+        -0.01631068867646096,
+        0.028384228084879753,
+        16829.179529161491,
+        -332.82312646427533,
+        10025.608133481215,
+        -0.013899765951800837,
+        1.0168712322167981
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "blending",
+      "sample": 3,
+      "x0": [
+        -0.017383459417783586,
+        0.00060545094864911109,
+        -0.041354097494969079,
+        15629.679625897395,
+        -330.7098021099373,
+        10039.082335336749,
+        0.023709260267747091,
+        1.0764784089644432
+      ],
+      "status": "completed",
+      "minSafetyMargin": 8170.731768001795,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        0.03216649235454918,
+        0.0050510256110608935,
+        0.029042319464183813,
+        16829.268231998205,
+        -326.34023598904878,
+        10042.245375669536,
+        0.0030585543739484362,
+        1.0125957616410175
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    },
+    {
+      "model": "aircraft",
+      "mode": "OI",
+      "sample": 3,
+      "x0": [
+        -0.017383459417783586,
+        0.00060545094864911109,
+        -0.041354097494969079,
+        15629.679625897395,
+        -330.7098021099373,
+        10039.082335336749,
+        0.023709260267747091,
+        1.0764784089644432
+      ],
+      "status": "completed",
+      "minSafetyMargin": 8170.8009006958855,
+      "maxInputViolation": 0,
+      "finite": true,
+      "finalState": [
+        0.028034626125772569,
+        0.01455104071765527,
+        0.029267316334884833,
+        16829.199099304114,
+        -334.26629608320576,
+        10050.5221056599,
+        -0.017557391655408594,
+        1.0151275591502658
+      ],
+      "errorId": "",
+      "errorMessage": ""
+    }
+  ],
+  "completed": 14,
+  "infeasible": 4,
+  "otherErrors": 0,
+  "safetyViolations": 1,
+  "inputViolations": 0
+}

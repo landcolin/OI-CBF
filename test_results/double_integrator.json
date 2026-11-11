@@ -1,0 +1,135 @@
+{
+  "model": "double_integrator",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "simulations": [
+    {
+      "mode": "bCBF",
+      "completed": true,
+      "seconds": 0.7169446000189055,
+      "steps": 351,
+      "simulated_seconds": 7.0200000000000005,
+      "finite": true,
+      "min_safety_margin": 0.0018000000000000006,
+      "safety_violations_below_minus_1e_8": 0,
+      "max_input_bound_violation": 0.0,
+      "input_min": [
+        -0.9999999904980157
+      ],
+      "input_max": [
+        1.0
+      ],
+      "mu_range": null,
+      "interventions": 330,
+      "returned_avg_time": [],
+      "returned_max_time": [],
+      "warnings": [],
+      "calls": 351,
+      "QP_fallbacks": 0
+    },
+    {
+      "mode": "blending",
+      "completed": true,
+      "seconds": 0.42791870000655763,
+      "steps": 351,
+      "simulated_seconds": 7.0200000000000005,
+      "finite": true,
+      "min_safety_margin": 8.567890219520903e-07,
+      "safety_violations_below_minus_1e_8": 0,
+      "max_input_bound_violation": 0.0,
+      "input_min": [
+        -0.9999828642929696
+      ],
+      "input_max": [
+        0.986524106001829
+      ],
+      "mu_range": [
+        0.006737946999085473,
+        0.9999914321464848
+      ],
+      "interventions": 351,
+      "returned_avg_time": [],
+      "returned_max_time": [],
+      "warnings": [],
+      "calls": 351,
+      "QP_fallbacks": 0
+    },
+    {
+      "mode": "OI",
+      "completed": true,
+      "seconds": 0.6537045000004582,
+      "steps": 351,
+      "simulated_seconds": 7.0200000000000005,
+      "finite": true,
+      "min_safety_margin": 0.0018000000000000006,
+      "safety_violations_below_minus_1e_8": 0,
+      "max_input_bound_violation": 0.0,
+      "input_min": [
+        -0.9999999904980168
+      ],
+      "input_max": [
+        1.0
+      ],
+      "mu_range": [
+        0.0,
+        0.9999999952490084
+      ],
+      "interventions": 330,
+      "returned_avg_time": [],
+      "returned_max_time": [],
+      "warnings": [],
+      "calls": 351,
+      "QP_fallbacks": 0
+    }
+  ],
+  "checks": {
+    "syntax": {
+      "files": 6,
+      "passed": true
+    },
+    "no_controller_selected": {
+      "exception": "UnboundLocalError",
+      "message": "cannot access local variable 'sdt' where it is not associated with a value"
+    },
+    "finite_difference": {
+      "states": 25,
+      "max_jacobian_absolute_error": 0.0,
+      "max_barrier_gradient_absolute_error": 0.0
+    },
+    "OI_vs_bCBF_max_state_difference": 3.3306690738754696e-16,
+    "OI_initial_state_domain": [
+      {
+        "x": [
+          -0.01,
+          0.5
+        ],
+        "u": -26.350000291600015,
+        "mu": 13.675000145800007,
+        "within_bounds": false
+      },
+      {
+        "x": [
+          -2.0,
+          1.1
+        ],
+        "u": -1.0000000000000018,
+        "mu": 1.0000000000000009,
+        "within_bounds": true
+      },
+      {
+        "x": [
+          -0.127,
+          0.5
+        ],
+        "u": -1.0761903981714287,
+        "mu": 1.0380951990857143,
+        "within_bounds": false
+      }
+    ],
+    "OI_closed_form_vs_reference_QP": {
+      "states": 12,
+      "infeasible_QPs": 0,
+      "max_mu_difference": 1.1102230246251565e-16,
+      "min_constraint_residual": 0.0
+    }
+  }
+}

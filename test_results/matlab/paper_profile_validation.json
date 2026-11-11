@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "model": "double_integrator",
+      "states": 3,
+      "maxBarrierError": 0,
+      "maxGradientError": 3.9480640978695192E-12,
+      "maxOIConstraintCoefficientError": 1.4872991727088447E-11,
+      "barrierTolerance": 1E-9,
+      "gradientTolerance": 1E-5,
+      "coefficientTolerance": 1E-5,
+      "passed": true
+    },
+    {
+      "model": "aircraft",
+      "states": 3,
+      "maxBarrierError": 0,
+      "maxGradientError": 9.6051735454238951E-9,
+      "maxOIConstraintCoefficientError": 3.8585085349041037E-8,
+      "barrierTolerance": 1E-9,
+      "gradientTolerance": 1E-5,
+      "coefficientTolerance": 1E-5,
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "interpretation": "Literal formula implementation verified numerically; paper safety claims are not established."
+}

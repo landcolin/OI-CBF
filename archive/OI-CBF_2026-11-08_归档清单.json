@@ -1,0 +1,1127 @@
+{
+  "archive_date": "2026-11-08",
+  "project": "OI-CBF",
+  "source_unchanged_since_audit": true,
+  "file_count_excluding_manifest": 92,
+  "uncompressed_bytes_excluding_manifest": 7428734,
+  "validation_snapshot": {
+    "math_validation": {
+      "checks": [
+        {
+          "name": "double_integrator/dynamics-python",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "double_integrator/dynamics-paper-16-or-30",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "double_integrator/primary-python",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "double_integrator/backup-python",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "double_integrator/jacobian-python",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "double_integrator/barriers-python-components",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/stable-softmin-formula",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/barrier-gradients-reference",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/jacobian-finite-differences",
+          "passed": true,
+          "error": 5.218936394157936e-12,
+          "tolerance": 2e-06
+        },
+        {
+          "name": "double_integrator/barrier-gradients-finite-differences",
+          "passed": true,
+          "error": 1.19660947817124e-11,
+          "tolerance": 5e-05
+        },
+        {
+          "name": "double_integrator/OI-KKT-1",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "double_integrator/OI-KKT-2",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "double_integrator/OI-KKT-3",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "double_integrator/backup-state-python-default-tolerances",
+          "passed": true,
+          "error": 7.216449660063518e-16,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/STM-python-default-tolerances",
+          "passed": true,
+          "error": 2.220446049250313e-16,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/directional-python-default-tolerances",
+          "passed": true,
+          "error": 3.3306690738754696e-16,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/eq29-vs-eq12-tight-integration",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0.0001
+        },
+        {
+          "name": "double_integrator/OI-coefficients-python-default-tolerances",
+          "passed": true,
+          "error": 1.4210854715202004e-14,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "double_integrator/OI-control-python-default-tolerances",
+          "passed": true,
+          "error": 2.220446049250313e-16,
+          "tolerance": 0.0002
+        },
+        {
+          "name": "double_integrator/polytope-projection-vs-python-quadprog",
+          "passed": true,
+          "error": 1.2029223103726672e-16,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "aircraft/dynamics-python",
+          "passed": true,
+          "error": 5.637851296924623e-18,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "aircraft/dynamics-paper-16-or-30",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "aircraft/primary-python",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "aircraft/backup-python",
+          "passed": true,
+          "error": 2.220446049250313e-16,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "aircraft/jacobian-python",
+          "passed": true,
+          "error": 3.552713678800501e-15,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "aircraft/barriers-python-components",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "aircraft/stable-softmin-formula",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "aircraft/barrier-gradients-reference",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "aircraft/jacobian-finite-differences",
+          "passed": true,
+          "error": 3.7005634112574626e-09,
+          "tolerance": 2e-06
+        },
+        {
+          "name": "aircraft/barrier-gradients-finite-differences",
+          "passed": true,
+          "error": 1.8276341506862082e-07,
+          "tolerance": 5e-05
+        },
+        {
+          "name": "aircraft/OI-KKT-1",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "aircraft/OI-KKT-2",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "aircraft/OI-KKT-3",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "aircraft/backup-state-python-default-tolerances",
+          "passed": true,
+          "error": 0.00010959136125165969,
+          "tolerance": 0.1
+        },
+        {
+          "name": "aircraft/STM-python-default-tolerances",
+          "passed": true,
+          "error": 0.008129254671757735,
+          "tolerance": 0.1
+        },
+        {
+          "name": "aircraft/directional-python-default-tolerances",
+          "passed": true,
+          "error": 0.002042882074647423,
+          "tolerance": 0.1
+        },
+        {
+          "name": "aircraft/eq29-vs-eq12-tight-integration",
+          "passed": true,
+          "error": 2.7109528843993758e-08,
+          "tolerance": 0.0001
+        },
+        {
+          "name": "aircraft/OI-coefficients-python-default-tolerances",
+          "passed": true,
+          "error": 0.002042882074647423,
+          "tolerance": 0.1
+        },
+        {
+          "name": "aircraft/OI-control-python-default-tolerances",
+          "passed": true,
+          "error": 1.5913100570585925e-07,
+          "tolerance": 0.0002
+        },
+        {
+          "name": "aircraft/polytope-projection-vs-python-quadprog",
+          "passed": true,
+          "error": 2.220446049250313e-16,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "projection/box-corner",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "projection/oblique-edge",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "projection/infeasible-interval-rejected",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "projection/infeasible-zero-row-rejected",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "OI/infeasibility-guard",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "OI/explicit-legacy-reproduces-original-bug",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "paper/altitude-h3-unnormalized",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "source/altitude-h3-normalized",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "paper/terminal-gain-alphaB",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "source/terminal-gain-alpha",
+          "passed": true,
+          "error": 0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "paper/signed-heading-no-abs",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "audit/printed-radius-counterexample-reproduced",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "amendment/signed-radius-excludes-counterexample",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "stability/finite-1",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "stability/finite-3",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "stability/finite-6",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        },
+        {
+          "name": "stability/finite-7",
+          "passed": true,
+          "error": 0,
+          "tolerance": 0
+        }
+      ],
+      "matlabVersion": "26.2.0.3386108 (R2026b)",
+      "originalBoundaryCounterexample": {
+        "mu": 1.020454520509091,
+        "u": -1.0409090410181818,
+        "feasible": false
+      },
+      "printedRadiusCounterexample": {
+        "rho": -4077.4719673802247,
+        "h": -1000,
+        "h6": 3072.4719673802247,
+        "satisfiesEq33Equalities": true,
+        "invalidSubsetClaim": true
+      },
+      "allImplementationChecksPassed": true,
+      "paperSafetyClaimsValidated": false
+    },
+    "simulation_validation": {
+      "matlabVersion": "26.2.0.3386108 (R2026b)",
+      "runs": [
+        {
+          "model": "double_integrator",
+          "mode": "bCBF",
+          "elapsedSeconds": 0.0926828,
+          "steps": 351,
+          "duration": 7.0200000000000005,
+          "finite": true,
+          "minSafetyMargin": 0.0018000000000000002,
+          "maxInputViolation": 0,
+          "allQPsFeasible": true,
+          "maxStateErrorByComponent": [
+            6.661338147750939e-16,
+            6.661338147750939e-16
+          ],
+          "maxControlError": 5.551115123125783e-15,
+          "muError": null,
+          "avgSolverTime": 1.262706552706553e-05,
+          "maxSolverTime": 0.0011998,
+          "trajectoryThresholds": [
+            1e-08,
+            1e-08
+          ],
+          "trajectoryAgreement": true,
+          "defaultSafetyChecksPassed": true
+        },
+        {
+          "model": "double_integrator",
+          "mode": "blending",
+          "elapsedSeconds": 0.0291136,
+          "steps": 351,
+          "duration": 7.0200000000000005,
+          "finite": true,
+          "minSafetyMargin": 8.567890219350345e-07,
+          "maxInputViolation": 0,
+          "allQPsFeasible": true,
+          "maxStateErrorByComponent": [
+            1.7763568394002505e-15,
+            2.1094237467877974e-15
+          ],
+          "maxControlError": 2.042810365310288e-14,
+          "muError": 1.021405182655144e-14,
+          "avgSolverTime": 0,
+          "maxSolverTime": 0,
+          "trajectoryThresholds": [
+            1e-08,
+            1e-08
+          ],
+          "trajectoryAgreement": true,
+          "defaultSafetyChecksPassed": true
+        },
+        {
+          "model": "double_integrator",
+          "mode": "OI",
+          "elapsedSeconds": 0.0482314,
+          "steps": 351,
+          "duration": 7.0200000000000005,
+          "finite": true,
+          "minSafetyMargin": 0.0018000000000000002,
+          "maxInputViolation": 0,
+          "allQPsFeasible": true,
+          "maxStateErrorByComponent": [
+            6.661338147750939e-16,
+            6.661338147750939e-16
+          ],
+          "maxControlError": 7.105427357601002e-15,
+          "muError": 3.552713678800501e-15,
+          "avgSolverTime": 8.08860398860399e-06,
+          "maxSolverTime": 0.0002434,
+          "trajectoryThresholds": [
+            1e-08,
+            1e-08
+          ],
+          "trajectoryAgreement": true,
+          "defaultSafetyChecksPassed": true
+        },
+        {
+          "model": "aircraft",
+          "mode": "bCBF",
+          "elapsedSeconds": 10.221098,
+          "steps": 734,
+          "duration": 110.1,
+          "finite": true,
+          "minSafetyMargin": 50.338061493061105,
+          "maxInputViolation": 0,
+          "allQPsFeasible": true,
+          "maxStateErrorByComponent": [
+            4.818252936078515e-07,
+            1.6225818610937637e-07,
+            1.5185726701116842e-07,
+            0.0001354031846858561,
+            0.0002960819167583395,
+            0.00024665794808242936,
+            6.396059361590822e-07,
+            1.2185298612354956e-06
+          ],
+          "maxControlError": 4.941936517885437e-06,
+          "muError": null,
+          "avgSolverTime": 0.001020571662125341,
+          "maxSolverTime": 0.007283,
+          "trajectoryThresholds": [
+            0.002,
+            0.002,
+            0.002,
+            2,
+            2,
+            2,
+            0.002,
+            0.002
+          ],
+          "trajectoryAgreement": true,
+          "defaultSafetyChecksPassed": true
+        },
+        {
+          "model": "aircraft",
+          "mode": "blending",
+          "elapsedSeconds": 4.1118018,
+          "steps": 734,
+          "duration": 110.1,
+          "finite": true,
+          "minSafetyMargin": 12.552514996234095,
+          "maxInputViolation": 2.220446049250313e-16,
+          "allQPsFeasible": true,
+          "maxStateErrorByComponent": [
+            4.174526141431656e-09,
+            2.638389159925758e-09,
+            9.426683877933328e-10,
+            5.6527678680140525e-06,
+            5.443415602712776e-07,
+            1.9086981410509907e-05,
+            7.1606985358602104e-09,
+            6.768138716140015e-09
+          ],
+          "maxControlError": 1.0072048528542155e-08,
+          "muError": 3.6145654343428847e-10,
+          "avgSolverTime": 0,
+          "maxSolverTime": 0,
+          "trajectoryThresholds": [
+            0.002,
+            0.002,
+            0.002,
+            2,
+            2,
+            2,
+            0.002,
+            0.002
+          ],
+          "trajectoryAgreement": true,
+          "defaultSafetyChecksPassed": true
+        },
+        {
+          "model": "aircraft",
+          "mode": "OI",
+          "elapsedSeconds": 7.1953978,
+          "steps": 734,
+          "duration": 110.1,
+          "finite": true,
+          "minSafetyMargin": 47.97016517781594,
+          "maxInputViolation": 0,
+          "allQPsFeasible": true,
+          "maxStateErrorByComponent": [
+            7.324553978893533e-07,
+            4.484243153884959e-08,
+            7.859364187234874e-08,
+            5.275753210298717e-05,
+            0.000206719632842578,
+            0.000183162826942862,
+            6.99876963730639e-07,
+            1.838758481031988e-07
+          ],
+          "maxControlError": 4.761585710943983e-06,
+          "muError": 2.1488879283770856e-06,
+          "avgSolverTime": 1.849564032697548e-05,
+          "maxSolverTime": 0.0004696,
+          "trajectoryThresholds": [
+            0.002,
+            0.002,
+            0.002,
+            2,
+            2,
+            2,
+            0.002,
+            0.002
+          ],
+          "trajectoryAgreement": true,
+          "defaultSafetyChecksPassed": true
+        }
+      ],
+      "allDefaultSafetyChecksPassed": true,
+      "allTrajectoryComparisonsPassed": true
+    },
+    "projection_validation": {
+      "cases": 80,
+      "feasibilityMismatches": 0,
+      "maxControlError": 1.0547118733938987e-15,
+      "maxConstraintViolation": 4.440892098500626e-16,
+      "passed": true
+    },
+    "paper_profile_validation": {
+      "models": [
+        {
+          "model": "double_integrator",
+          "states": 3,
+          "maxBarrierError": 0,
+          "maxGradientError": 3.948064097869519e-12,
+          "maxOIConstraintCoefficientError": 1.4872991727088447e-11,
+          "barrierTolerance": 1e-09,
+          "gradientTolerance": 1e-05,
+          "coefficientTolerance": 1e-05,
+          "passed": true
+        },
+        {
+          "model": "aircraft",
+          "states": 3,
+          "maxBarrierError": 0,
+          "maxGradientError": 9.605173545423895e-09,
+          "maxOIConstraintCoefficientError": 3.858508534904104e-08,
+          "barrierTolerance": 1e-09,
+          "gradientTolerance": 1e-05,
+          "coefficientTolerance": 1e-05,
+          "passed": true
+        }
+      ],
+      "allPassed": true,
+      "interpretation": "Literal formula implementation verified numerically; paper safety claims are not established."
+    },
+    "toolbox_validation": {
+      "quadprogPath": "C:\\Program Files\\MATLAB\\R2026b\\toolbox\\optim\\optim\\quadprog.m",
+      "cases": 80,
+      "feasibilityMismatches": 0,
+      "maxControlErrorVsPython": 8.049116928532385e-16,
+      "maxControlErrorVsProjection": 4.996003610813204e-16,
+      "runs": [
+        {
+          "model": "double_integrator",
+          "minSafetyMargin": 0.0018000000000000002,
+          "allQPsFeasible": true,
+          "maxStateErrorVsProjection": 1.1102230246251565e-16,
+          "maxStateErrorVsPython": 6.661338147750939e-16,
+          "maxControlErrorVsProjection": 3.552713678800501e-15,
+          "maxInputViolation": 0,
+          "passed": true
+        },
+        {
+          "model": "aircraft",
+          "minSafetyMargin": 50.338061493061105,
+          "allQPsFeasible": true,
+          "maxStateErrorVsProjection": 1.6370904631912708e-11,
+          "maxStateErrorVsPython": 0.00029608191266561334,
+          "maxControlErrorVsProjection": 7.54427076365971e-12,
+          "maxInputViolation": 0,
+          "passed": true
+        }
+      ],
+      "maxOIClosedFormDifference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    "symbolic_validation": {
+      "matlabVersion": "26.2.0.3433840 (R2026b) Update 1",
+      "aircraftStates": 12,
+      "maxJacobianError": 2.842170943040401e-14,
+      "maxComponentGradientError": 4.547473508864641e-13,
+      "softminGradientIdentity": true,
+      "doubleIntegratorJacobianIdentity": true,
+      "passed": true,
+      "interpretation": "Derivative implementation checks, not a proof of the paper safety assumptions."
+    },
+    "parallel_validation": {
+      "cases": 18,
+      "outcomeMismatches": 0,
+      "maxNumericalDifference": 0,
+      "serialSeconds": 3.1046543,
+      "parallelSeconds": 2.3634819,
+      "poolStartupSeconds": 14.3484157,
+      "workers": 2,
+      "completed": 14,
+      "infeasible": 4,
+      "otherErrors": 0,
+      "safetyViolations": 1,
+      "inputViolations": 0,
+      "passed": true
+    },
+    "code_analyzer": {
+      "files": 23,
+      "messages": 0
+    }
+  },
+  "excluded": [
+    ".git",
+    ".test-environment",
+    "MATLAB installations",
+    "stale aggregate MAT reports",
+    "duplicate entrypoint output folders"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 91,
+      "sha256": "a678b57cfd9061041b38c73fe98a1e3f9ba493f259647adbc2943d726f4ed43d"
+    },
+    {
+      "path": "ARCHIVE_SUMMARY.md",
+      "bytes": 12154,
+      "sha256": "4c2b4b11fbfc4c31130f9d3989b2090ede3df017f6aae201f736a12b258ad68e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2089,
+      "sha256": "0454ad4ee69a873de2a5bd15e6ad5e506705aa069fbe4f8b4af7a905f7ab033d"
+    },
+    {
+      "path": "aircraft/comparison.py",
+      "bytes": 4723,
+      "sha256": "f966d66d31a063a8d45c1f8d999cbb377eca2bfbe32dad4a36b5142b78c32156"
+    },
+    {
+      "path": "aircraft/control.py",
+      "bytes": 3420,
+      "sha256": "66342098eb9988789c9fc04b2b4c1ce52599139ffdc6f740c1651fbc50e2d3f6"
+    },
+    {
+      "path": "aircraft/dynamics.py",
+      "bytes": 9916,
+      "sha256": "cfe24190c6b6e978a232edac8a7bad841812da32836a189509360f565aaa0527"
+    },
+    {
+      "path": "aircraft/main_sim.py",
+      "bytes": 3616,
+      "sha256": "1450c3f83b6016cf990994f779cbfdd0030aaded1055caa8d3decf5a9da539d1"
+    },
+    {
+      "path": "aircraft/matlab/closedLoopJac_symbolic.m",
+      "bytes": 1446,
+      "sha256": "7e0ee0583897d3ac0c00a55ece1469ab47a487b780cdbd928c64533da550cd75"
+    },
+    {
+      "path": "aircraft/matlab/jacobian_fun.m",
+      "bytes": 2676,
+      "sha256": "4f10c5d74f6d63b3635995fc66f8b03e106c6f7fe558588d6a0dae04661e414a"
+    },
+    {
+      "path": "aircraft/plotting_paper_comparison.py",
+      "bytes": 29819,
+      "sha256": "971d92646912aff93efc53674193de38ceeebef2b68b7d1f14b9c68d989e9cea"
+    },
+    {
+      "path": "aircraft/safety.py",
+      "bytes": 14330,
+      "sha256": "a763b1d69f7012f7699c9ddcc61dc8c0ee324324831c96b4ef09a436bc5c7a25"
+    },
+    {
+      "path": "archive/create_archive.py",
+      "bytes": 5045,
+      "sha256": "f81fbda60da67aae9787fc0c3bea5385b4f213ea499bc8333fbac75096358545"
+    },
+    {
+      "path": "double_integrator/comparison.py",
+      "bytes": 2240,
+      "sha256": "4be0cfcdb67ac0d1697a8391d6757474a05b79a7b96159e6d55341f37b2a3378"
+    },
+    {
+      "path": "double_integrator/control.py",
+      "bytes": 906,
+      "sha256": "6e9c82bcc13bdabbc2b4108558f894b8fd420acd15f7844a327833a91b9c2a91"
+    },
+    {
+      "path": "double_integrator/dynamics.py",
+      "bytes": 4992,
+      "sha256": "8de38bd2b7cb1022e81715dd4a32478d3191432a681e4b2cee716c8f87fb336b"
+    },
+    {
+      "path": "double_integrator/main_sim.py",
+      "bytes": 3980,
+      "sha256": "c8b9602e0dede0a722eb738ad8601bce0e2bb54bf4763a4665b089aec54d6b5d"
+    },
+    {
+      "path": "double_integrator/plotting_paper_comparison.py",
+      "bytes": 12510,
+      "sha256": "a2fd2fd2d8035cd2486da30056bfb1900dc2d8fcc3b65ca31e64baf927999eef"
+    },
+    {
+      "path": "double_integrator/safety.py",
+      "bytes": 9759,
+      "sha256": "a8f765d9ea1dad378d6547eccddfc5bc8f841c7bf9d85b475b893dc54bcf5c3b"
+    },
+    {
+      "path": "hero.png",
+      "bytes": 227283,
+      "sha256": "1f413e922e11761f9652569255ba2f83b87916c6613bd6456fe8ceee3a769a82"
+    },
+    {
+      "path": "matlab/+oicbf/backupFlow.m",
+      "bytes": 1724,
+      "sha256": "e4f42fd684f59d8ab74b0461aafe682980963a18d8e3a980375de5d7e150c599"
+    },
+    {
+      "path": "matlab/+oicbf/barriers.m",
+      "bytes": 1044,
+      "sha256": "88ecf4414ea333dc37f00f0b7d67dc8014879b28cb9b8d7ef01971087c490d22"
+    },
+    {
+      "path": "matlab/+oicbf/config.m",
+      "bytes": 2125,
+      "sha256": "078ad0c580f0596a8b680fc490e1328fb0210fbae67dca08124564587ffa63d8"
+    },
+    {
+      "path": "matlab/+oicbf/constraintSystem.m",
+      "bytes": 1311,
+      "sha256": "25769146c7c33a4ef72be885b5286d42f21b5a499efb13b45797d73856fce5a5"
+    },
+    {
+      "path": "matlab/+oicbf/control.m",
+      "bytes": 1037,
+      "sha256": "ebda8a276b8f81451f6423ef5190e9bcd78089211282fb8f33406f1bc7f58520"
+    },
+    {
+      "path": "matlab/+oicbf/dynamics.m",
+      "bytes": 473,
+      "sha256": "17f90c273f4d130a6ea3ee1370346c8845f1f34f41a5e205b85c9cf56a6652f6"
+    },
+    {
+      "path": "matlab/+oicbf/filter.m",
+      "bytes": 2177,
+      "sha256": "0f61905017569dcf42f88d7bdf58c0f9846a4f7710201f71df80d6240cd071f7"
+    },
+    {
+      "path": "matlab/+oicbf/jacobian.m",
+      "bytes": 714,
+      "sha256": "b0c5bde1ca4d0e65fafce042b36aa8cd2da4a62b71df30a5d413eca8ce8e19e0"
+    },
+    {
+      "path": "matlab/+oicbf/plotComparison.m",
+      "bytes": 1982,
+      "sha256": "13830eb83f18f87305b4046a0a3606917bc312eaf935d0f93e2893fe7d69a763"
+    },
+    {
+      "path": "matlab/+oicbf/projectPolytope.m",
+      "bytes": 1685,
+      "sha256": "73b834c3d0f3b81a01a3c9fb762188a8e07f3ea878aeb86c14769424c841f97e"
+    },
+    {
+      "path": "matlab/+oicbf/simulate.m",
+      "bytes": 1673,
+      "sha256": "9ba345d0276529a2e29b573dae508aa38fcce9770d3ddb88b57c057bd05f3a3b"
+    },
+    {
+      "path": "matlab/+oicbf/softSaturate.m",
+      "bytes": 773,
+      "sha256": "1d7b0f609bafe0e0f2af83d0578333b050bda1a124ba792466490fc5df3dd0bd"
+    },
+    {
+      "path": "matlab/+oicbf/solveQP.m",
+      "bytes": 1072,
+      "sha256": "124ed8d4eb80081b4aa3afd2cb8b0352c64d497e7fb9967eda40941eb628c1be"
+    },
+    {
+      "path": "matlab/README.md",
+      "bytes": 9046,
+      "sha256": "3d5bbd22c20f83af02b09d18fe5af93dad9b8e0e622546b4ed3c84cae4cfb77f"
+    },
+    {
+      "path": "matlab/run_batch_tests.m",
+      "bytes": 3850,
+      "sha256": "b22d554cf75b40783d1606c4656b22c5aefa32d1f7fd33abc27cf8e85d763235"
+    },
+    {
+      "path": "matlab/run_comparison.m",
+      "bytes": 908,
+      "sha256": "0c7584b93fe0ea484cb8e947e3e911c97b7ed2ec22587eaada87f3e4bf7bf6f8"
+    },
+    {
+      "path": "matlab/run_validation.m",
+      "bytes": 482,
+      "sha256": "8e3873da0f1ee6b7e81d33e308f06963a4bac62745d9a26a9f03e31d87fc6451"
+    },
+    {
+      "path": "matlab/validate_math.m",
+      "bytes": 9142,
+      "sha256": "a3d1c92f7aeeb8166b6a472acef0c90998181f7bccac15b730a0d0c1aad53ce9"
+    },
+    {
+      "path": "matlab/validate_paper_profile.m",
+      "bytes": 3600,
+      "sha256": "e3545e51089f104da7f76b1b93330f99ca249034f67ae6a99e4fb0a13320cedd"
+    },
+    {
+      "path": "matlab/validate_parallel.m",
+      "bytes": 1792,
+      "sha256": "d7b7ce97cc868a3c9eb6bc82c47727adf907801e9b2f70eae73ef3f2957ae26a"
+    },
+    {
+      "path": "matlab/validate_projection.m",
+      "bytes": 1261,
+      "sha256": "d02a970ff1c37824c356f278ae1ea8a64b9fcbdb69db6eb8cecfabe874bd40f4"
+    },
+    {
+      "path": "matlab/validate_simulations.m",
+      "bytes": 3257,
+      "sha256": "8dc537555b0831da21a73d87209faa9105aebfa3af9ecb2901be6543a159ebf3"
+    },
+    {
+      "path": "matlab/validate_symbolic.m",
+      "bytes": 3775,
+      "sha256": "fac03c2069f7f6cc51f41a3ac98ed37cd0b46a5a02f8b5041ca1bc62efec2a82"
+    },
+    {
+      "path": "matlab/validate_toolbox.m",
+      "bytes": 3275,
+      "sha256": "4cede7d9d2e3b74427bde8f396ac98bf52b2aa1d025986c27da1d93c0ec75bae"
+    },
+    {
+      "path": "paper/1048550arXiv251005436.pdf",
+      "bytes": 966480,
+      "sha256": "9f95995f0f1849d44ebb242e7947439cf83685c54ee022b4dd9d23faaf3cf6f0"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 432,
+      "sha256": "c435d92e11853d650ff644c71dc27921d3f2438d8ae89cf2e063643948dd3076"
+    },
+    {
+      "path": "test_results/MATH_AND_MATLAB_REPORT.md",
+      "bytes": 20167,
+      "sha256": "213a28decf01b0bad915f94512bcd010f25322f7df99b6fdc6ae6ea2e283314c"
+    },
+    {
+      "path": "test_results/TEST_REPORT.md",
+      "bytes": 8054,
+      "sha256": "47a2901046119a2899c4e83e1b643c0a67a4c8ac53c620ee4384a55c40813dd8"
+    },
+    {
+      "path": "test_results/aircraft.json",
+      "bytes": 3313,
+      "sha256": "b8bfb9ba65f02d9c238f8f81f94091c61edef5b0ad5aca1e4e97a4715bc675f8"
+    },
+    {
+      "path": "test_results/aircraft_OI.npz",
+      "bytes": 55239,
+      "sha256": "1ffaa4b647d52ef4e2a5eff90faaf1c2b07ac2150255cd7dd735a051dc995198"
+    },
+    {
+      "path": "test_results/aircraft_bCBF.npz",
+      "bytes": 50505,
+      "sha256": "0fe2d333b7df7575b579a4b2d2d25d7b09987574f216299f965e149433b722f7"
+    },
+    {
+      "path": "test_results/aircraft_blending.npz",
+      "bytes": 55441,
+      "sha256": "ffb18db4865ffd9e83b2a41a8b7abc61a864da4999b372c9afc7d5e2b8d5bb3f"
+    },
+    {
+      "path": "test_results/aircraft_edges.json",
+      "bytes": 1832,
+      "sha256": "2de2788f6b3c7af4fdbe63013fc352562292a6a64d4562e49045da265a0b0087"
+    },
+    {
+      "path": "test_results/aircraft_paper_audit.json",
+      "bytes": 2217,
+      "sha256": "6c837a0a6255d75808d82e070518b0a9eee83f817f80f57328b94fc39f71b9ca"
+    },
+    {
+      "path": "test_results/aircraft_reference.mat",
+      "bytes": 361947,
+      "sha256": "b93447d7ccf2de9f6613591d0b9c6c5122f052dfb7ffd05670fe6de78c8e5ce1"
+    },
+    {
+      "path": "test_results/double_integrator.json",
+      "bytes": 3405,
+      "sha256": "7e1abe8cf0748f6ebb80d8bb2e6cac33219d9d0995a993c5394110eb32b91890"
+    },
+    {
+      "path": "test_results/double_integrator_OI.npz",
+      "bytes": 7042,
+      "sha256": "d1d51a505d5414bf9f531ac15a47f13f315cbe1c73947f9edba35442efaf8602"
+    },
+    {
+      "path": "test_results/double_integrator_bCBF.npz",
+      "bytes": 5605,
+      "sha256": "a10dc5e541d41acfc380a0f7bf1d7be412c7937a2bef80ad144a724865361af2"
+    },
+    {
+      "path": "test_results/double_integrator_blending.npz",
+      "bytes": 11204,
+      "sha256": "917bc943e3fd64e8c56257011f71d27fab0674dea02b9c1b2fc4d89ee32495bc"
+    },
+    {
+      "path": "test_results/double_integrator_edges.json",
+      "bytes": 1985,
+      "sha256": "d2e63202618e0e7631351a29db346379b98e80dbe402ee24ddf015fc9dcc0beb"
+    },
+    {
+      "path": "test_results/double_integrator_paper_audit.json",
+      "bytes": 1429,
+      "sha256": "2e4fa0fba3440d3b1946969714f3786cba652610789401cbda96f95451185b3e"
+    },
+    {
+      "path": "test_results/double_integrator_reference.mat",
+      "bytes": 26539,
+      "sha256": "7aba19e9c6b8d395759a6584f133c13c6d621e162be05718d3792ab1a6c597fc"
+    },
+    {
+      "path": "test_results/matlab/aircraft/controls_and_safety.png",
+      "bytes": 90418,
+      "sha256": "0fb06be766b21940948cef3e1596a565b1921531215e64fc6537b9ea616800c3"
+    },
+    {
+      "path": "test_results/matlab/aircraft/state_histories.png",
+      "bytes": 147306,
+      "sha256": "8870191c00e1ba10debbbe6e658840337f6bc31e01b1c8077421c4822d6b72a6"
+    },
+    {
+      "path": "test_results/matlab/aircraft/trajectories.png",
+      "bytes": 39025,
+      "sha256": "5707815198dbfb9110418de4888dd9f27e706d246f127d27f8fbef4d6dfaac61"
+    },
+    {
+      "path": "test_results/matlab/aircraft_OI.mat",
+      "bytes": 1166226,
+      "sha256": "70728ffdc3585986e60ef967489810dd1404d6c9d2fc3c65b7f1a92b9f8f2805"
+    },
+    {
+      "path": "test_results/matlab/aircraft_bCBF.mat",
+      "bytes": 1170793,
+      "sha256": "4e07afe07b42ec7b2fc52ed13f174bd299f0576300903edc8b72a46937b08cfd"
+    },
+    {
+      "path": "test_results/matlab/aircraft_blending.mat",
+      "bytes": 1157717,
+      "sha256": "62b5fec02032cb88d994d52152bf5d5892959e98a8b268ad82cad0f76e5d9fe5"
+    },
+    {
+      "path": "test_results/matlab/aircraft_quadprog_bCBF.mat",
+      "bytes": 1170878,
+      "sha256": "0c6de4b7f8af024964b1f7042a0d37487ff377d1dd98c1459829b9a2e325e755"
+    },
+    {
+      "path": "test_results/matlab/batch_parallel.json",
+      "bytes": 9639,
+      "sha256": "72f9968c44c21ab069397d1ea02dcffe57591cbd20d009c9f71312f7c3b63825"
+    },
+    {
+      "path": "test_results/matlab/batch_serial.json",
+      "bytes": 9628,
+      "sha256": "9c882588024093ac61f34d65eed98f97bf38db9065ed8a0ec591574f76c2bf6a"
+    },
+    {
+      "path": "test_results/matlab/code_analyzer.json",
+      "bytes": 28,
+      "sha256": "de4b49fd490c661e8ae70953a08cbe57953009bd6fdd0d27238b6bce121f99a3"
+    },
+    {
+      "path": "test_results/matlab/double_integrator/controls_and_safety.png",
+      "bytes": 70911,
+      "sha256": "67da81fffea682dd0700959f3886951f468d34ab7fd1b6d7bbfd3dd108acfa95"
+    },
+    {
+      "path": "test_results/matlab/double_integrator/state_histories.png",
+      "bytes": 30395,
+      "sha256": "84bd8f003530a7053eecd297ca11ef95f7c659108cd9b9fecb22f5ff43f2685f"
+    },
+    {
+      "path": "test_results/matlab/double_integrator/trajectories.png",
+      "bytes": 40568,
+      "sha256": "7b42c074c7c34cea52fe6ee6f866fc202d1b816f7f6b8c7932b5174694eff9ee"
+    },
+    {
+      "path": "test_results/matlab/double_integrator_OI.mat",
+      "bytes": 49187,
+      "sha256": "e896d4184c90770d6a194e21f39778769d38ab242f15bf1aa3155e1a9e6b68da"
+    },
+    {
+      "path": "test_results/matlab/double_integrator_bCBF.mat",
+      "bytes": 47706,
+      "sha256": "5c773e18f6631a843fcbded56b4d1f39ec0e3d1e20c336cb1360b88e0fcfffd6"
+    },
+    {
+      "path": "test_results/matlab/double_integrator_blending.mat",
+      "bytes": 73076,
+      "sha256": "16295d16a8b8f5b9f91b7327f7fdcee73fca06c86272137a4def478578e0f380"
+    },
+    {
+      "path": "test_results/matlab/double_integrator_quadprog_bCBF.mat",
+      "bytes": 49536,
+      "sha256": "60c1054e85972455a2998bc6ed63199ec30d84d9f1a895b96b5869725bb3c992"
+    },
+    {
+      "path": "test_results/matlab/math_validation.json",
+      "bytes": 8284,
+      "sha256": "066f3a504206d97e10eb0695cdcf9aef49ba9da1e147e6aca47b6528c31a0832"
+    },
+    {
+      "path": "test_results/matlab/math_validation.mat",
+      "bytes": 2193,
+      "sha256": "e0c78562ca3bfab209abf931a9fe14220f2ca39c36bfe4137859abf94ccf809b"
+    },
+    {
+      "path": "test_results/matlab/paper_profile_validation.json",
+      "bytes": 814,
+      "sha256": "1e4748488988b6de82a82e8ea2fd459958ce413f1e113af7a22d601e3e3625a4"
+    },
+    {
+      "path": "test_results/matlab/parallel_validation.json",
+      "bytes": 314,
+      "sha256": "41461db8e9ec1b2a0cb17c45a14d99562463ef4b9743608d465e0f29ea773da1"
+    },
+    {
+      "path": "test_results/matlab/projection_validation.json",
+      "bytes": 163,
+      "sha256": "f35ba61965f80968cc6514ac87fdcb5b61da8f0a8ab402d83d4ea3da6cd22ed4"
+    },
+    {
+      "path": "test_results/matlab/simulation_validation.json",
+      "bytes": 5073,
+      "sha256": "691f701c3a68041ea570cc156f8ec702c42b34b7d78a936b6a3efbc1564d1dc5"
+    },
+    {
+      "path": "test_results/matlab/symbolic_aircraft_jacobian.m",
+      "bytes": 2092,
+      "sha256": "a58fd51fb72b4f86cc7da75a2191c60bb1077718afa6fc3599084a36e4ddb45b"
+    },
+    {
+      "path": "test_results/matlab/symbolic_validation.json",
+      "bytes": 382,
+      "sha256": "bf3b403dbbc0cbf4bb9a630696e2a9e311a2ed5c816aadbb0d9f26a4eeb6bc99"
+    },
+    {
+      "path": "test_results/matlab/toolbox_validation.json",
+      "bytes": 1029,
+      "sha256": "ac38390eb1cbc7eb6d571604865ac119474eb9470db0cc9601feafe351d4443f"
+    },
+    {
+      "path": "test_results/projection_reference.mat",
+      "bytes": 68504,
+      "sha256": "5e6336672c5f1cef1c73f99105bd106f12f6b29e34f622cc5467f89c35d06933"
+    },
+    {
+      "path": "tests/audit_paper_math.py",
+      "bytes": 8345,
+      "sha256": "bb263e7eb990d89e0d5ceccf00bdb525b351ae29ee582b8ae3a334126fc8dc08"
+    },
+    {
+      "path": "tests/export_qp_fixtures.py",
+      "bytes": 1417,
+      "sha256": "e0c0baa0e86f4c1a4c3a6f5741f39427b79027ad36edd023f84d5ebd12f12d01"
+    },
+    {
+      "path": "tests/validate_edges.py",
+      "bytes": 5971,
+      "sha256": "4c24315e66b8e2a8c3a8373aa4f6defbc5fe00d7ba12c9d804628acbc0b5e0c2"
+    },
+    {
+      "path": "tests/validate_source.py",
+      "bytes": 9107,
+      "sha256": "5756ead596d649e95d96a2bbbda2b0eafdb3a42618660be8b28817cbad45d68c"
+    }
+  ]
+}

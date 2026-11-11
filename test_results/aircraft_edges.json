@@ -1,0 +1,68 @@
+{
+  "plotting_latex_True": {
+    "completed": false,
+    "exception": "RuntimeError",
+    "message": "Failed to process string with tex because latex could not be found"
+  },
+  "plotting_latex_False": {
+    "completed": true,
+    "warnings": []
+  },
+  "OI_terminal_constraint_alpha_mismatch": [
+    {
+      "state_index": 0,
+      "terminal_hb": 0.009912041264510254,
+      "used_rhs": -0.0007136669710447383,
+      "alpha_b_rhs": -0.004956020632255127,
+      "actual_mu": 0.0,
+      "mu_with_alpha_b": 0.0
+    },
+    {
+      "state_index": 300,
+      "terminal_hb": 0.00952893883124463,
+      "used_rhs": -0.0005873989224959613,
+      "alpha_b_rhs": -0.004665784742268662,
+      "actual_mu": 0.6472259490074908,
+      "mu_with_alpha_b": 0.6472259490074908
+    },
+    {
+      "state_index": 600,
+      "terminal_hb": 0.004764778863770979,
+      "used_rhs": -0.00016146983467210888,
+      "alpha_b_rhs": -0.002200795188366088,
+      "actual_mu": 0.49941633838870564,
+      "mu_with_alpha_b": 0.49941633838870564
+    }
+  ],
+  "off_nominal_numerics": [
+    {
+      "case": "P_minus_30",
+      "u": [
+        "nan",
+        "1.1656842592650847"
+      ],
+      "hb": "-inf",
+      "gradient_finite": false,
+      "warnings": [
+        "invalid value encountered in divide",
+        "invalid value encountered in multiply",
+        "invalid value encountered in scalar subtract",
+        "overflow encountered in exp"
+      ]
+    },
+    {
+      "case": "H_12000",
+      "u": [
+        "-1.5707963267929463",
+        "0.9656844592648659"
+      ],
+      "hb": "-inf",
+      "gradient_finite": false,
+      "warnings": [
+        "invalid value encountered in divide",
+        "invalid value encountered in multiply",
+        "overflow encountered in exp"
+      ]
+    }
+  ]
+}
